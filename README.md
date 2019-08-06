@@ -23,7 +23,7 @@ Para instalar o projeto em seu computador siga estes passos:
     
 4. Pronto, agora é só programar!
 
-### Para enviar as alterações que desejar para o repositório
+### Para enviar as alterações para o repositório
 
 1. Use o comando `` git add `` seguido do(s) nome(s) do(s) arquivo(s) (nome + extensão) que deseja alterar. ( `` git add .`` adiciona todos os arquivos alterados de uma vez.)
 
