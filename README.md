@@ -19,7 +19,7 @@ Para instalar o projeto em seu computador siga estes passos:
     2. `` npm run client `` para startar somente o servidor frontend.
     3. `` npm run dev `` para startar os dois servidores ao mesmo tempo. 
 
-    Por padrão os servidores backend e frontend vão startar respectivamente nas portas 3000 e 5000.
+    Por padrão os servidores backend e frontend vão startar respectivamente nas portas 5000 e 3000.
     
 4. Pronto, agora é só programar!
 
