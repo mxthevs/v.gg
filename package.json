@@ -1,0 +1,32 @@
+{
+  "name": "v.gg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "make": "npm install && cd client && npm install",
+    "client": "cd client && npm start",
+    "server": "nodemon index.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxthevs/v.gg.git"
+  },
+  "author": "Matheus Henrique <mxthevsh@gmail.com>",
+  "contributors": [
+    "Marlon Rodler <marlon.rodler@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mxthevs/v.gg/issues"
+  },
+  "homepage": "https://github.com/mxthevs/v.gg#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "nodemon": "^1.19.1"
+  }
+}
