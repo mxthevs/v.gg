@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     width: 100vw;
+    height: 8vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -10,6 +11,6 @@ export const Container = styled.div`
 `;
 
 export const NavTitle = styled.div`
+    font-family: 'Righteous', cursive;
     font-size: 24px;
-    font-weight: bold;
 `;
