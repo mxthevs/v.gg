@@ -4,6 +4,10 @@ import Navbar from '../Navbar/Navbar';
 import Container from '../Container/Container';
 
 class App extends Component {
+    componentDidMount(){
+        document.title = "V.gg - Visualizador de histórico";
+    }
+
     render() {
         return (
             <>

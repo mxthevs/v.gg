@@ -1,7 +1,8 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');;
         
     *{
         margin: 0;
