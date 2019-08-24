@@ -62,10 +62,12 @@ export const Container = styled.div`
 
       &:hover {
         background-color: #47236b;
+        cursor: pointer;
       }
 
       &:active {
         background-color: #33194c;
+        cursor: pointer;
       }
 
       &:active,
